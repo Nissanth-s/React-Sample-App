@@ -1,0 +1,394 @@
+.page-container {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 14rem; 
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 12rem;
+  padding-bottom: 2rem;         /* Footer height */
+}
+
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: Noto Sans;
+}
+
+.Auth-form {
+  max-width: 420px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: left;
+  margin-bottom: 1em;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  /* 131.25% */
+}
+
+.Auth-sub-title {
+  text-align: left;
+  margin-bottom: 1.5em;
+  color: #3D3D3D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  /* 162.5% */
+}
+
+.Auth-sub-title span {
+  color: #587FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.line-text {
+  overflow: hidden;
+  text-align: center;
+}
+
+h6 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+h6::before,
+h6::after {
+  background-color: #CFCFCF;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  color: #3D3D3D;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  /* 146.154% */
+  letter-spacing: 0.39px;
+}
+
+
+h6::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h6::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.form-placeholder {
+  color: #3E3E3E;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: 2px solid #3E3E3E;
+  background: #FFF;
+}
+
+.form-check-label {
+  color: #3D3D3D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.form-check-input {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  background: #F2F2F2;
+}
+
+.custom-input {
+  height: 48px;
+  border: 2px solid #3E3E3E;
+  background: #FFF;
+}
+
+.btn-primary {
+  background: #3C3C3C;
+  color: #FCFCFC;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  height: 48px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-login {
+  height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: green;
+  align-content: space-between;
+}
+
+.header-container {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.header-container h2 {
+  color: #3D3D3D;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  /* 141.667% */
+}
+
+.header-container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.header-container ul li {
+  color: #8B8B8B;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 30px;
+  list-style-type: none;
+  cursor: pointer;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.header-container .active {
+  color: #3D3D3D;
+  border-bottom: #3D3D3D 2px solid;
+}
+
+.body-main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #3E3E3E;
+  background: #FFF;
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.10);
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.body-container img {
+  margin-right: 15px;
+  width: 127px;
+  object-fit: contain;
+}
+
+.body-container h3 {
+  color: #3D3D3D;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.body-container h4 {
+  color: #6F6F6F;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  /* 118.75% */
+  letter-spacing: 0.48px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer-container .icon-container {
+  width: 270px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.icon-container svg {
+  cursor: pointer;
+}
+
+.footer-container h3 {
+  color: #3D3D3D;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  /* 146.154% */
+  letter-spacing: 0.39px;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.testClass {
+  background-color: #587FFF;
+}
+
+.spinner {
+  text-align: center;
+  margin-top: 45vh; 
+}
+
+.spinnerSub {
+  width: 3rem;
+  height: 3rem;
+}
+
+.erroData {
+  text-align: center;
+  border: #000 2px solid;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  margin-top: 20vh;
+}
+
+.mob-nav {
+  display: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.mob-nav .sub-menu{
+  display: none;
+  border: #CFCFCF 2px solid;
+  position: absolute;
+  left: -70px;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  line-height: 35px;
+}
+
+.mob-nav .sub-menu-active{
+  display: block;
+  border: #CFCFCF 2px solid;
+  position: absolute;
+  left: -70px;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  line-height: 35px;
+}
+
+.web-nav{
+  display: block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .body-container img {
+    width: 48px;
+  }
+  .mob-nav {
+    display: block;
+  }
+  .web-nav{
+    display: none;
+  }
+}
